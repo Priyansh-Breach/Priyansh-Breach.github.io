@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logo.com</title>
+    <link rel='stylesheet' href='/register.css'/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="all">
+        <div id="logo">
+            <div id="icon"></div>
+            <h1 id="logo-text">LOGO</h1>
+        </div>
+        <div id="signin">
+            <form id="login" action="/register" method="POST">
+                <input id="username" class="u-p" placeholder="USERNAME" name="username"></input>
+                <input id="email" type="email" class="u-p" placeholder="E-MAIL" name="email"></input>
+                <input id="password" class="u-p" placeholder="PASSWORD" type="password" name="password"></input>
+                <input id="submit" class="btnRegister" value="CREATE ACCOUNT" name="registerBtn" onclick="myFunction()"/>
+            </form>
+        </div>
+    </div>
+</body>
+<script>
+    function myFunction() {
+         window.location.href="/src/views/homePage.html";  
+       }
+</script>
+</html>

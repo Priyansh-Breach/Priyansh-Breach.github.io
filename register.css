@@ -1,0 +1,124 @@
+*
+{
+    margin: 0;
+}
+
+#all
+{
+    width: 100vw;
+    height: 100vh;
+    background-color: #4285F4;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    align-items: center;
+}
+
+#logo
+{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-self: center;
+    display: flex;
+    align-items: center;
+}
+
+#icon
+{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    margin: 20px;
+}
+
+#logo-text
+{
+    font-family: 'Libre Franklin', sans-serif;
+    color: #FFDF2B;
+    font-size: 10rem;
+}
+
+#signin
+{
+    width: 45%;
+    height: 45%;
+    background-color: white;
+    border-radius: 2%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: center;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+#directjoin
+{
+    box-sizing: border-box;
+    display: grid;
+    padding: 10% 5%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 15px;
+    column-gap: 10px;
+    width: auto;
+    height: auto;
+}
+
+.select
+{
+    background-color: white;
+    border: none;
+    font-weight: bold;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+input
+{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+#login
+{
+    box-sizing: border-box;
+    padding: 5%;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 15px;
+    width: auto;
+    height: auto;
+}
+
+.u-p
+{
+    width: auto;
+    height: auto;
+    padding: 5%;
+}
+
+#submit
+{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    text-align: center;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.enable
+{
+    background-color: #4285F4;
+    color: white;
+    border-radius: 5px;
+}
