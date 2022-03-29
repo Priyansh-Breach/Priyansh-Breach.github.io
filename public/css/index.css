@@ -185,3 +185,16 @@ span
 {
     transform: translateY(0%);
 }
+
+@media (max-width: 750px)
+{
+    #logoText
+    {
+        font-size: calc(1rem + 200%);
+    }
+
+    #search
+    {
+        font-size: 0.75rem;
+    }
+}
