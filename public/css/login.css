@@ -13,6 +13,17 @@
     grid-column-end: 3;
 }
 
+#myVideo {
+    z-index: -99;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: -17.5%;
+	left: -12.5%;
+	grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 #all
 {
     width: 100vw;
