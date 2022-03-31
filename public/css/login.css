@@ -3,11 +3,21 @@
     margin: 0;
 }
 
+#myVideo {
+    z-index: -99;
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    top: -17.5%;
+	left: -12.5%;
+	grid-column-start: 1;
+    grid-column-end: 3;
+}
+
 #all
 {
     width: 100vw;
     height: 100vh;
-    background-color: #4285F4;
     display: grid;
     grid-template-columns: 6fr 4fr;
     align-items: center;
